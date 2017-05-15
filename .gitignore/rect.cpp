@@ -1,4 +1,4 @@
-//15.5.17 4#
+//15.5.17 4#shoelace formula
 #include <iostream>
 #include<cmath>
 using namespace std;
