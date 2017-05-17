@@ -1,4 +1,4 @@
-//given a integer coordinating 5 disgits,reverse the integer
+//given a integer coordinating 5 disgits,reverse the integer 11#
 #include <iostream>
 using namespace std;
 int main()
