@@ -1,3 +1,4 @@
+//given an alphabet print the alphabet in upper case
 #include <iostream>
 using namespace std;
 int main()
