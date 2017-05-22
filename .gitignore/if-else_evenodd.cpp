@@ -1,3 +1,4 @@
+//givn an integer ,print whether its evn or odd
 #include <iostream>
 using namespace std;
 int main()
