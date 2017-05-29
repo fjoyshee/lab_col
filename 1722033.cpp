@@ -2,83 +2,102 @@
 /*
 #include <iostream>
 using namespace std;
-int main ()
+int main()
 {
-    cout<<"####### ########"<<endl;
-    cout<<"##         ##"<<endl;
-    cout<<"##         ##"<<endl;
-    cout<<"#######    ##"<<endl;
-    cout<<"##         ##"<<endl;
-    cout<<"##         ##"<<endl;
-    cout<<"#######    ##"<<endl;
+    int a,b;
+    cin>>a>>b;
+    if(a<=b||a>=b)
+    {
+    cout<<"Yes"<<endl;
+    }
 }
 */
 
-//problem 2
+
+//Problem 2
+
+/*
+#include <iostream>
+using namespace std;
+int main()
+{
+
+ char ch1,ch2;
+ cin>>ch1>>ch2;
+ if(ch2<ch1&&ch1>ch2)
+ {
+     cout<<ch2<<" "<<ch1<<endl;
+ }
+else
+{
+    cout<<ch1<<" "<<ch2<<endl;
+}
+}
+*/
+//Problem 3
+
 /*
 #include <iostream>
 #include <cmath>
 using namespace std;
-int main ()
+int main()
 {
-    int x,y;
-    y=pow(x,5)+pow(x*y,.5)+pow(x*y,1.8)+abs(x-y*x-y);
-    cout<<pow(x,5)+pow(x*y,.5)+pow(x*y,1.8)+abs(x-y*x-y)<<y<<endl;
-}
-*/
-//problem 3
-/*
-#include <iostream>
-#include <cmath>
-using namespace std;
-int main ()
+ int h,k,r,a,b,eq;
+ cin>>h>>k>>r>>a>>b;
+    eq=pow((a-h),2)+pow((a-k),2);
+     r=pow(r,2);
+     if(eq==r)
 {
-    int x1,x2,x3,x4,x5,x6,y1,y2,y3,y4,y5,y6;
-    y=(x1*y2+x2*y1)-(x3*y3+x4*y2)-(x5*y5+x6*y3);
-    cout<<(x1*y2+x2*y1)-(x3*y3+x4*y2)-(x5*y5+x6*y3<<y<<endl;
 
-}
+        cout<<"On Circle"<<endl;
+ }
+     else
+     {
+         cout<<"Inside Circle:"<<endl;
+     }
+ }
+
 */
-
-
 
 //problem 4
+
 /*
 #include <iostream>
-#include <cmath>
 using namespace std;
-int main ()
-
+int main()
 {
-    int a,b,c,d,e,f,dev;
-    cin>>a>>b>>c>>d>>e>>f;
-    dev=(a+b+c+d+e+f)%6;
-
-    cout<<"(a+b+c+d+e+f)%6="<<dev<<endl;
-
+    int a,b,c,d,e,r,avg;
+    cin>>a>>b>>c>>d>>e;
+     r=a+b+c+d+e;
+     avg=r/avg;
+     if(r%2!==0)
+    {
+    cout<<avg;
+    }
 }
-
 */
-//problem 5
+
+//Problem 5
 /*
 #include <iostream>
-#include <cmath>
 using namespace std;
-int main ()
+int main()
 {
-    int d1,d2,d3,d4,d5,d6,rn;
-
-cin>>d1>>d2>>d3>>d4>>d5>>d6;
-    rn=d1*100+d2*10+d3+d4*100+d5*10+d4;
-    cout<<rn<<endl;
-
-
+ int a1,a2,a3,b1,b2,b3,A,B;
+ cin>>a1>>a2>>a3>>b1>>b2>>b3;
+ cout<<"A"<<"("<<a1<<","<<a2<<","<<a3<<")"<<endl;
+ cout<<"B"<<"("<<b1<<","<<b2<<","<<b3<<")"<<endl;
+  if ((a1+a2>a3 && a1+a3>a2 && a2+a3>a1)&&(b1+b2>b3 && b1+b3>b2 && b2+b3>b1))
+ {
+  cout<<"Yes"<<endl;
+ }
+ else
+ {
+  cout<<"No"<<endl;
+ }
 }
+*/
 
-
-
-
-
-
+// https://www.dropbox.com/s/x4bzwpw5m31qnna/Quiz2.pdf?dl=0
 
 
